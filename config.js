@@ -7,6 +7,11 @@ let config = {
         database : 'broadcast_cloud',
         min : 0,
         max : 7
+    },
+    redis : {
+        port : 6379,
+        host : '121.42.227.165',
+        password : 'ZvZg2R8L8rbg9y'
     }
 }
 

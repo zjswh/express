@@ -12,6 +12,5 @@ let db = knex({
     },
     pool: { min: config.mysql.min, max: config.mysql.max }
 })
-let info = db.column('id', 'name').select().from('lps_soldier').first()
-console.log(info)
-// module.exports = db
+
+module.exports = db
